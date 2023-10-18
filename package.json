@@ -1,0 +1,25 @@
+{
+	"name": "new-cypress-tests",
+	"version": "1.0.0",
+	"description": "Examples for API and UI testing.",
+	"main": "index.js",
+	"scripts": {
+		"cypress:open": "./node_modules/.bin/cypress open",
+		"cypress:run": "./node_modules/.bin/cypress run",
+		"cypress:reports": "cypress run --reporter junit --reporter-options \"mochaFile=results/my-test-output-[hash].xml\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/normiaaa/new-cypress-tests.git"
+	},
+	"author": "normia",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/normiaaa/new-cypress-tests/issues"
+	},
+	"homepage": "https://github.com/normiaaa/new-cypress-tests#readme",
+	"devDependencies": {
+		"cypress": "^13.3.1",
+		"prettier": "3.0.3"
+	}
+}
