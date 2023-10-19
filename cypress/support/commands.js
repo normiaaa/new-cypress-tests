@@ -26,7 +26,7 @@
 
 // const cypress = require('cypress');
 
-//This command would be used for loggin in via API
+//This command would be used for LogIn in via API
 
 Cypress.Commands.add('loginViaAPI', () => {
 	cy.session('user', () => {
@@ -56,7 +56,7 @@ Cypress.Commands.add('getToken', () => {
 	});
 });
 
-//Sincer the API does not work for this particular website, we created a custom command for LogIn via UI
+//r This command would be used for LogIn via UI
 
 Cypress.Commands.add('loginViaUi', user => {
 	cy.session(user, () => {
