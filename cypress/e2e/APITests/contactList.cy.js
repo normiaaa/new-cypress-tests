@@ -10,7 +10,6 @@ describe('Test API', () => {
 					},
 				}).then(data => {
 					expect(dataToCompare).to.deep.equal(data.body);
-					console.log(dataToCompare);
 				});
 			});
 		});
